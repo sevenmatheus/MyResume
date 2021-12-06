@@ -3,6 +3,6 @@
     color:green;
 }
 
-@tailwind base; 
-@tailwind component;
-@tailwind utilities; 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
