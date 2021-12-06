@@ -1,0 +1,8 @@
+.helloWorld 
+{
+    color:green;
+}
+
+@tailwind base; 
+@tailwind component;
+@tailwind utilities; 
