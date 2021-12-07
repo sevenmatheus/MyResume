@@ -13,7 +13,7 @@
     <body class="bg-gray-800"> 
         <!-- Cabeçalho -->
         <header class="mt-20 px-8">
-            <div class="container mx-auto text-center font-mono"> 
+            <div class="container mx-auto text-center font-mono max-w-screen-xl"> 
                 <!-- Saudações -->
                 <p class="text-green-400 font-bold">
                     Hello World <span class="font-normal">🖖🏾🌍</span>
@@ -32,8 +32,8 @@
         <main> 
             <!-- Sobre mim-->
             <section class="p-8"> 
-                <div class="container mx-auto"> 
-                    <p class="text-gray-400 font-sans ">Programador em formação, Entusiasta em tecnologia e apaixonado em solucionar problemas. <b>Atualmente me especializando em desenvolvimento Front-End. </b></p>
+                <div class="container mx-auto max-w-lg"> 
+                    <p class="text-gray-400 font-sans text-center">Programador em formação, Entusiasta em tecnologia e apaixonado em solucionar problemas. <b>Atualmente me especializando em desenvolvimento Front-End. </b></p>
                     <svg width="16" height="88" viewBox="0 0 16 88" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
                         <path d="M7.29289 87.7071C7.68342 88.0976 8.31658 88.0976 8.70711 87.7071L15.0711 81.3431C15.4616 80.9526 15.4616 80.3195 15.0711 79.9289C14.6805 79.5384 14.0474 79.5384 13.6569 79.9289L8 85.5858L2.34315 79.9289C1.95262 79.5384 1.31946 79.5384 0.928932 79.9289C0.538408 80.3195 0.538408 80.9526 0.928932 81.3431L7.29289 87.7071ZM9 87L9 4.37114e-08L7 -4.37114e-08L7 87L9 87Z" fill="url(#paint0_linear_1_12)"  />
                         <defs>
@@ -45,95 +45,193 @@
                     </svg>
                 </div>
             </section>
-            <section class="px-8"> 
-                <div class="container mx-auto">
+            <section class="p-8"> 
+                <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4 items-center max-w-screen-xl">
                     <!-- Titulo-->
-                    <div class="text-center font-bold font-mono">
-                        <h3 class="text-green-400 text-3xl">Principais</h3>
-                        <h2 class="text-white text-4xl">HABILIDADES <br/> <span class="text-indigo-500">&</span>TECNOLOGIAS</h2>
+                    <div class="text-center lg:text-right font-bold font-mono flex justify-right flex-col">
+                        <h3 class="text-green-400 text-3xl sm:text-4xl">Principais</h3>
+                        <h2 class="text-white text-4xl sm:text-5xl">HABILIDADES<span class="text-indigo-500">&</span><br/>TECNOLOGIAS</h2>
                     </div>
                     <!-- Avatar-->
                     <div class="py-4 flex justify-center items-center"> 
-                        <div class="h-80 w-80 sm:h-96 sm:w-96 circle overflow-hidden">
+                        <div class="h-64 w-64 sm:h-96 sm:w-96 circle overflow-hidden">
 
                         </div>
                     </div>
                     <!-- Habilidades-->
                     <div class="py-4"> 
-                        <div class="py-2"> 
+                        <div class="py-2 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-3 sm:items-center border-b  border-gray-700"> 
                             <h4 class="font-bold font-mono text-green-400 text-2xl leading-7">
                                 Tenho <br> Experiência
                             </h4>
-                            <p class="text-gray-400 py-2"> 
+                            <p class="text-gray-400 py-2 col-span-2 sm:text-right md:text-left"> 
                                 HTML5 | CSS3 | Javascript | Git & Github
                             </p>
                         </div>
-                        <div class="py-2"> 
+                        <div class="py-2 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-3 sm:items-center border-b  border-gray-700"> 
                             <h4 class="font-bold font-mono text-green-400 text-2xl leading-7">
                                 Estou <br> Estudando
                             </h4>
-                            <p class="text-gray-400 py-2"> 
-                                React JS | Tailwind | Metodologia Ágeis                              </p>
+                            <p class="text-gray-400 py-2 col-span-2 sm:text-right md:text-left"> 
+                                React JS | Tailwind | Metodologia Ágeis                              
+                            </p>
                         </div>
-                        <div class="py-2"> 
+                        <div class="py-2 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-3 sm:items-center border-b  border-gray-700"> 
                             <h4 class="font-bold font-mono text-green-400 text-2xl leading-7">
                                 Tenho <br> Interesse
                             </h4>
-                            <p class="text-gray-400 py-2"> 
-                                React Native | Typescript |  SASS                            </p>
+                            <p class="text-gray-400 py-2 col-span-2 sm:text-right md:text-left"> 
+                                React Native | Typescript |  SASS                            
+                            </p>
                         </div>
                     </div>
                 </div> 
             </section>
-            <section class="p-8 bg-gray-900 grid grid-cols-1">
-                <div class="border border-gray-600 rounded-lg m-4">
-                    <!-- Titulo -->
-                    <div class="font-mono font-bold py-4 px-8 border-b border-gray-600">
-                        <h4 class="text-green-400 text-2xl leading-7">
-                            Curso <br> Discover
-                        </h4>
-                        <p class="text-indigo-500 py-1">Rocketseat</p>
+            <section class="py-16 px-8 bg-gray-900 ">
+                <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 max-w-screen-xl">
+                    <div class="border border-gray-600 rounded-lg ">
+                        <!-- Titulo -->
+                        <div class="font-mono font-bold py-4 px-8 border-b border-gray-600">
+                            <h4 class="text-green-400 text-2xl leading-7">
+                                Curso <br> Discover
+                            </h4>
+                            <p class="text-indigo-500 py-1">Rocketseat</p>
+                        </div>
+                        <!-- Ementa -->
+                        <div class="py-4 px-8 font-light text-gray-500 text-sm ">
+                            <ul> 
+                                <li>Introdução a programação</li>
+                                <li>Lógica de programação</li>
+                                <li>Funcionamento da web</li>
+                                <li>HTML, CSS, Javascript</li>
+                                <li>Node + EJX</li>
+                                <li>SQL </li>
+                                <li>Git e Github</li>
+                                <li>Programação Funcional </li>
+                                <li>Programação Orientada a Objetos</li>
+                              </ul>
+    
+                        </div>
                     </div>
-                    <!-- Ementa -->
-                    <div class="py-4 px-8 font-light text-gray-500 text-sm ">
-                        <ul>
-                            <li>Lorem Impsum Dollor</li>
-                        </ul>
-
+                    <div class="border border-gray-600 rounded-lg ">
+                        <!-- Titulo -->
+                        <div class="font-mono font-bold py-4 px-8 border-b border-gray-600">
+                            <h4 class="text-green-400 text-2xl leading-7">
+                                Curso <br> Discover
+                            </h4>
+                            <p class="text-indigo-500 py-1">Rocketseat</p>
+                        </div>
+                        <!-- Ementa -->
+                        <div class="py-4 px-8 font-light text-gray-500 text-sm">
+                            <ul> 
+                                <li class="py-1">Usabilidade e Arquitetura da Informação.</li>
+                                <li class="py-1">Para quem  está criando sua UX?</li>
+                                <li class="py-1">Protótipos e Design </li>
+                                <li class="py-1">Pesquisas e Dados</li>
+                                <li class="py-1">Conceitos</li>
+                                <li class="py-1">Ferramentas</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="border border-gray-600 rounded-lg m-4">
-                    <!-- Titulo -->
-                    <div class="font-mono font-bold py-4 px-8 border-b border-gray-600">
-                        <h4 class="text-green-400 text-2xl leading-7">
-                            Curso <br> Discover
-                        </h4>
-                        <p class="text-indigo-500 py-1">Rocketseat</p>
+                    <div class="border border-gray-600 rounded-lg ">
+                        <!-- Titulo -->
+                        <div class="font-mono font-bold py-4 px-8 border-b border-gray-600">
+                            <h4 class="text-green-400 text-2xl leading-7">
+                                Curso <br> Discover
+                            </h4>
+                            <p class="text-indigo-500 py-1">Rocketseat</p>
+                        </div>
+                        <!-- Ementa -->
+                        <div class="py-4 px-8 font-light text-gray-500 text-sm">
+                            <ul> 
+                                <li class="py-1">DevOps Completo</li>
+                                <li class="py-1">Metodologia e Melhores Práticas</li>
+                                <li class="py-1">Dominios de Conhecimento da Agilidade e suas Métricas</li>
+                                <li class="py-1">Desvendando o UML </li>
+                                <li class="py-1">Diagramas de Caso de Uso.</li>
+                            </ul>
+                        </div>
                     </div>
-                    <!-- Ementa -->
-                    <div class="py-4 px-8 font-light text-gray-500 text-sm">
-                        <ul>
-                            <li>Lorem Impsum Dollor</li>
-                        </ul>
-                      
+                </div> 
+            </section>
+            <!-- Por que me escolher? -->
+            <section class="py-16 px-8"> 
+                <div class="container mx-auto max-w-screen-xl"> 
+                    <!-- Titulo-->
+                    <h2 class="text-indigo-500 font-mono font-bold text-4xl sm:text-5xl text-center py-8">POR QUAIS RAZÕES ME ESCOLHER?</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
+                        <div class="flex items-center">
+                            <div class="text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>    
+                            </div>
+                            <div class="pl-4"> 
+                                <h5 class="font-mono text-white text-lg">Disponibilidade</h5>
+                                <p class="text-gray-500 text-sm">Acessível em todas as modalidades e horários.</p>
+                            </div>
+                        </div> 
+                        <div class="flex items-center">
+                            <div class="text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>   
+                            </div>
+                            <div class="pl-4"> 
+                                <h5 class="font-mono text-white text-lg">Curiosidade</h5>
+                                <p class="text-gray-500 text-sm">Hábito de estudo/aprender diariamente.</p>
+                            </div>
+                        </div> 
+                        <!-- Criatividade -->
+                        <div class="flex items-center">
+                            <div class="text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>    
+                            </div>
+                            <div class="pl-4"> 
+                                <h5 class="font-mono text-white text-lg">Criatividade</h5>
+                                <p class="text-gray-500 text-sm">Mente criativas geram soluções criativas.</p>
+                            </div>
+                        </div> 
+                        <!-- Facilidade -->
+                        <div class="flex items-center">
+                            <div class="text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                </svg>   
+                            </div>
+                            <div class="pl-4"> 
+                                <h5 class="font-mono text-white text-lg">Flexibilidade</h5>
+                                <p class="text-gray-500 text-sm">Facilidade para aprender novas tecnológias.</p>
+                            </div>
+                        </div> 
+                        <!-- Crescimento -->
+                        <div class="flex items-center">
+                            <div class="text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>  
+                            </div>
+                            <div class="pl-4"> 
+                                <h5 class="font-mono text-white text-lg">Crescimento</h5>
+                                <p class="text-gray-500 text-sm">Estou focado em meu desenvolvimento pessoal.</p>
+                            </div>
+                        </div> 
+                        <!-- Comunicação -->
+                        <div class="flex items-center">
+                            <div class="text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>   
+                            </div>
+                            <div class="pl-4"> 
+                                <h5 class="font-mono text-white text-lg">Comunicação</h5>
+                                <p class="text-gray-500 text-sm">Sinto facilidade de me encaixar em novos times. </p>
+                            </div>
+                        </div> 
                     </div>
-                </div>
-                <div class="border border-gray-600 rounded-lg m-4">
-                    <!-- Titulo -->
-                    <div class="font-mono font-bold py-4 px-8 border-b border-gray-600">
-                        <h4 class="text-green-400 text-2xl leading-7">
-                            Curso <br> Discover
-                        </h4>
-                        <p class="text-indigo-500 py-1">Rocketseat</p>
-                    </div>
-                    <!-- Ementa -->
-                    <div class="py-4 px-8 font-light text-gray-500 text-sm">
-                        <ul>
-                            <li>Lorem Impsum Dollor</li>
-                        </ul>
-                        
-                    </div>
-                </div>
+                </div>  
             </section>
         </main>
     </body>

@@ -11,6 +11,6 @@
 { 
     background-image: url('../images/avatar.png'), url('../images/circle-background-purple.png');
     background-position: center center; 
-    background-size: contain, cover;
+    background-size: contain, contain;
     background-repeat: no-repeat;
 }
