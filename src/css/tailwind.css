@@ -6,3 +6,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.circle 
+{ 
+    background-image: url('../images/avatar.png'), url('../images/circle-background-purple.png');
+    background-position: center center; 
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+}
