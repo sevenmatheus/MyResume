@@ -10,14 +10,23 @@
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
     </head>
-    <body class="bg-gray-800"> 
+    <body class="bg-gray-800 bg-gradient-to-b from-gray-900 to-transparent"> 
+        <nav class="py-1 bg-gradient-to-r from-green-500 to-transparent">
+            <div class="container text-center mx-auto"> 
+            </div>
+        </nav>
         <!-- Cabeçalho -->
         <header class="mt-20 px-8">
             <div class="container mx-auto text-center font-mono max-w-screen-xl"> 
                 <!-- Saudações -->
-                <p class="text-green-400 font-bold">
-                    Hello World <span class="font-normal">🖖🏾🌍</span>
-                </p>
+                <div class="flex justify-center">
+                    <p class="text-green-400 font-bold">
+                        Hello World 
+                    </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 animate-spin text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
                 <!-- Nome-->
                 <h1 class="text-6xl font-extrabold text-white py-4">
                     MATHEUS NEVES
@@ -34,15 +43,17 @@
             <section class="p-8"> 
                 <div class="container mx-auto max-w-lg"> 
                     <p class="text-gray-400 font-sans text-center">Programador em formação, Entusiasta em tecnologia e apaixonado em solucionar problemas. <b>Atualmente me especializando em desenvolvimento Front-End. </b></p>
-                    <svg width="16" height="88" viewBox="0 0 16 88" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
-                        <path d="M7.29289 87.7071C7.68342 88.0976 8.31658 88.0976 8.70711 87.7071L15.0711 81.3431C15.4616 80.9526 15.4616 80.3195 15.0711 79.9289C14.6805 79.5384 14.0474 79.5384 13.6569 79.9289L8 85.5858L2.34315 79.9289C1.95262 79.5384 1.31946 79.5384 0.928932 79.9289C0.538408 80.3195 0.538408 80.9526 0.928932 81.3431L7.29289 87.7071ZM9 87L9 4.37114e-08L7 -4.37114e-08L7 87L9 87Z" fill="url(#paint0_linear_1_12)"  />
-                        <defs>
-                        <linearGradient id="paint0_linear_1_12" x1="7.5" y1="87" x2="7.5" y2="-2.18557e-08" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#6366F1"/>
-                        <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
+                    <div class="pt-8">
+                        <svg width="16" height="88" viewBox="0 0 16 88" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto animate-bounce" >
+                            <path d="M7.29289 87.7071C7.68342 88.0976 8.31658 88.0976 8.70711 87.7071L15.0711 81.3431C15.4616 80.9526 15.4616 80.3195 15.0711 79.9289C14.6805 79.5384 14.0474 79.5384 13.6569 79.9289L8 85.5858L2.34315 79.9289C1.95262 79.5384 1.31946 79.5384 0.928932 79.9289C0.538408 80.3195 0.538408 80.9526 0.928932 81.3431L7.29289 87.7071ZM9 87L9 4.37114e-08L7 -4.37114e-08L7 87L9 87Z" fill="url(#paint0_linear_1_12)"  />
+                            <defs>
+                            <linearGradient id="paint0_linear_1_12" x1="7.5" y1="87" x2="7.5" y2="-2.18557e-08" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#6366F1"/>
+                            <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
                 </div>
             </section>
             <section class="p-8"> 
@@ -60,7 +71,7 @@
                     </div>
                     <!-- Habilidades-->
                     <div class="py-4"> 
-                        <div class="py-2 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-3 sm:items-center border-b  border-gray-700"> 
+                        <div class="py-2 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-3 sm:items-center border-b  border-gray-800"> 
                             <h4 class="font-bold font-mono text-green-400 text-2xl leading-7">
                                 Tenho <br> Experiência
                             </h4>
@@ -68,7 +79,7 @@
                                 HTML5 | CSS3 | Javascript | Git & Github
                             </p>
                         </div>
-                        <div class="py-2 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-3 sm:items-center border-b  border-gray-700"> 
+                        <div class="py-2 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-3 sm:items-center border-b  border-gray-800"> 
                             <h4 class="font-bold font-mono text-green-400 text-2xl leading-7">
                                 Estou <br> Estudando
                             </h4>
@@ -76,12 +87,12 @@
                                 React JS | Tailwind | Metodologia Ágeis                              
                             </p>
                         </div>
-                        <div class="py-2 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-3 sm:items-center border-b  border-gray-700"> 
+                        <div class="py-2 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-3 sm:items-center border-b  border-gray-800"> 
                             <h4 class="font-bold font-mono text-green-400 text-2xl leading-7">
                                 Tenho <br> Interesse
                             </h4>
                             <p class="text-gray-400 py-2 col-span-2 sm:text-right md:text-left"> 
-                                React Native | Typescript |  SASS                            
+                                React Native | Typescript |  SASS  | Next.JS                          
                             </p>
                         </div>
                     </div>
@@ -89,9 +100,9 @@
             </section>
             <section class="py-16 px-8 bg-gray-900 ">
                 <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 max-w-screen-xl">
-                    <div class="border border-gray-600 rounded-lg ">
+                    <div class="border-2 border-gray-800 rounded-lg ">
                         <!-- Titulo -->
-                        <div class="font-mono font-bold py-4 px-8 border-b border-gray-600">
+                        <div class="font-mono font-bold py-4 px-8 border-b-2 border-gray-800">
                             <h4 class="text-green-400 text-2xl leading-7">
                                 Curso <br> Discover
                             </h4>
@@ -113,13 +124,13 @@
     
                         </div>
                     </div>
-                    <div class="border border-gray-600 rounded-lg ">
+                    <div class="border-2 border-gray-800 rounded-lg ">
                         <!-- Titulo -->
-                        <div class="font-mono font-bold py-4 px-8 border-b border-gray-600">
+                        <div class="font-mono font-bold py-4 px-8 border-b-2 border-gray-800">
                             <h4 class="text-green-400 text-2xl leading-7">
-                                Curso <br> Discover
+                                User <br/> Experience
                             </h4>
-                            <p class="text-indigo-500 py-1">Rocketseat</p>
+                            <p class="text-indigo-500 py-1">FIAP</p>
                         </div>
                         <!-- Ementa -->
                         <div class="py-4 px-8 font-light text-gray-500 text-sm">
@@ -133,13 +144,14 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="border border-gray-600 rounded-lg ">
+                    <div class="border-2 border-gray-800 rounded-lg ">
                         <!-- Titulo -->
-                        <div class="font-mono font-bold py-4 px-8 border-b border-gray-600">
+                        <div class="font-mono font-bold py-4 px-8 border-b-2 border-gray-800">
                             <h4 class="text-green-400 text-2xl leading-7">
-                                Curso <br> Discover
+                                DevOps & <br /> Agile Culture
+
                             </h4>
-                            <p class="text-indigo-500 py-1">Rocketseat</p>
+                            <p class="text-indigo-500 py-1">FIAP</p>
                         </div>
                         <!-- Ementa -->
                         <div class="py-4 px-8 font-light text-gray-500 text-sm">
@@ -155,11 +167,11 @@
                 </div> 
             </section>
             <!-- Por que me escolher? -->
-            <section class="py-16 px-8"> 
+            <section class="py-16 pb-0 px-8"> 
                 <div class="container mx-auto max-w-screen-xl"> 
                     <!-- Titulo-->
                     <h2 class="text-indigo-500 font-mono font-bold text-4xl sm:text-5xl text-center py-8">POR QUAIS RAZÕES ME ESCOLHER?</h2>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 py-8">
                         <div class="flex items-center">
                             <div class="text-green-400">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -215,7 +227,7 @@
                             </div>
                             <div class="pl-4"> 
                                 <h5 class="font-mono text-white text-lg">Crescimento</h5>
-                                <p class="text-gray-500 text-sm">Estou focado em meu desenvolvimento pessoal.</p>
+                                <p class="text-gray-500 text-sm">Estou focado em desenvolvimento pessoal.</p>
                             </div>
                         </div> 
                         <!-- Comunicação -->
@@ -227,12 +239,35 @@
                             </div>
                             <div class="pl-4"> 
                                 <h5 class="font-mono text-white text-lg">Comunicação</h5>
-                                <p class="text-gray-500 text-sm">Sinto facilidade de me encaixar em novos times. </p>
+                                <p class="text-gray-500 text-sm">Sinto facilidade em encaixar a novos times. </p>
                             </div>
                         </div> 
                     </div>
                 </div>  
             </section>
         </main>
+        <footer class="py-16 px-8 bg-gradient-to-t from-gray-900 to-transparent"> 
+            <div class="container mx-auto max-w-screen-xl text-lg"> 
+                <div class="font-mono grid grid-cols-1 lg:grid-cols-2 items-center py-8"> 
+                    <h2 class="text-white text-4xl sm:text-5xl font-bold py-2">
+                        DADOS PESSOAIS
+                    </h2>
+                    <p class="text-indigo-400 py-2 lg:text-right"> 
+                        Fique à vontade para me enviar uma mensagem.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 items-center font-sans"> 
+                    <div class="text-white">
+                        <div><span class="text-indigo-400 font-bold">linkedin:</span> seveneves</div>
+                        <div><span class="text-indigo-400 font-bold">instagram:</span> seveneves</div>
+                        <div><span class="text-indigo-400 font-bold">github:</span> seveneves</div>
+                    </div>
+                    <div class="text-white lg:text-right font-bold mt-8 pt-8 border-t-2 border-gray-800 lg:border-0">
+                        <div>sevenmatheus@outlook.com</div>
+                        <div>(81) 9 8505.1859</div>
+                    </div>
+                </div>
+            </div>      
+        </footer>
     </body>
 </html>
